@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+body {
+    padding: 24px;
+}
+
+h1 {
+    font-weight: 100;
+    color: rgb(2, 138, 93);
+}
+
+input[type="number"] {
+    width: 200px;
+    padding: 8px;
+    font-size: 12pt;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+button {
+    background: rgb(223, 255, 227);
+    color: rgb(2, 138, 93);
+    width: 64px;
+    padding: 8px;
+    font-size: 12pt;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+button:hover {
+    background: rgb(201, 233, 204);
+}
+
+.kakeru {
+    margin: 4px;
+    font-size: 16pt;
+}
+
+.paper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px 0;
+}
+
+.cell {
+    width: 48px;
+    height: 48px;
+    position: relative;
+}
+
+.red {
+    background: rgb(250, 230, 230);
+}
+
+.green {
+    background: rgb(250, 250, 230);
+}
+
+.blue {
+    background: rgb(230, 250, 250);
+}
+
+.number {
+    font-size: 24pt;
+    width: 48px;
+    text-align: center;
+    position: absolute;
+    margin: 0;
+}
+.mini {
+    font-size: 12pt;
+    position: absolute;
+    right: 4px;
+}
